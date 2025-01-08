@@ -4,12 +4,12 @@
 
 
 
-# 1996-2023
+# 1996-2024
 https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=32
 
 
 # Observation météorologique historiques France (SYNOP)
-# 2010-2023
+# 2010-2024
 <img src="https://github.com/rbizoi/PythonFormationCESI/blob/main/images/meteo_france_synop01.png" width="1024">
 
 https://public.opendatasoft.com/explore/dataset/donnees-synop-essentielles-omm
