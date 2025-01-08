@@ -24,7 +24,6 @@
 <div style='padding:15px;color:#030aa7;font-size:100%;text-align: left;font-family: Georgia, serif'><a href="https://archive.ics.uci.edu/dataset/53/iris">Veuillez vous référer à la page UC Irvine Machine Learning Repository officielle pour plus de détails.</a></div>
 
 <table>
-    <CAPTION style='padding:15px;color:#030aa7;font-size:150%;text-align: left;font-weight: bold;font-family: Georgia, serif'>Iris.csv</CAPTION>    
     <tr>                                                                                   
          <th  style="text-align:left;background-color:#053061;color:white;">Colonne initiale </th>
          <th  style="text-align:left;background-color:#053061;color:white;">Description</th>
