@@ -14,3 +14,6 @@ https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=
 
 https://public.opendatasoft.com/explore/dataset/donnees-synop-essentielles-omm
 
+
+`import pandas as pd`
+`meteo = pd.read_parquet('donnees_meteo.gzip', engine='pyarrow')`
