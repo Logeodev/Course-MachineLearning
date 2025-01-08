@@ -25,7 +25,6 @@
 
 <table>
     <CAPTION style='padding:15px;color:#030aa7;font-size:150%;text-align: left;font-weight: bold;font-family: Georgia, serif'>Iris.csv</CAPTION>    
-<tr>                                                                                   
     <tr>                                                                                   
          <th  style="text-align:left;background-color:#053061;color:white;">Colonne initiale </th>
          <th  style="text-align:left;background-color:#053061;color:white;">Description</th>
