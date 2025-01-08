@@ -1,7 +1,7 @@
 <table>
 <tr>                                                                                   
      <th>
-         <div style='padding:15px;color:#030aa7;font-size:240%;text-align: center;font-style: italic;font-weight: bold;font-family: Georgia, serif'><a href="https://www.kaggle.com/datasets/alicenkbaytop/abalone-dataset/data">Jeu de données Ormeau(Abalone)<br>Analyse exploratoire des données</a></div>
+         <div style='padding:15px;color:#030aa7;font-size:240%;text-align: center;font-style: italic;font-weight: bold;font-family: Georgia, serif'><a href="https://www.kaggle.com/datasets/alicenkbaytop/abalone-dataset/data">Jeu de données Ormeau(Abalone)</a></div>
      </th>
      <th><img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/abalone.jpg" width="96"></th>
  </tr>
