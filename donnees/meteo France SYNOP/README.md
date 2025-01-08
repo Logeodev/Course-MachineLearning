@@ -1,6 +1,6 @@
 # Données SYNOP essentielles OMM
 
-<img src="https://github.com/rbizoi/PythonFormationCESI/blob/main/images/meteo-france.jpg" width="512">
+<img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/meteo-france.jpg" width="512">
 
 
 
@@ -10,7 +10,7 @@ https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=
 
 # Observation météorologique historiques France (SYNOP)
 # 2010-2024
-<img src="https://github.com/rbizoi/PythonFormationCESI/blob/main/images/meteo_france_synop01.png" width="1024">
+<img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/meteo_france_synop01.png" width="1024">
 
 https://public.opendatasoft.com/explore/dataset/donnees-synop-essentielles-omm
 
