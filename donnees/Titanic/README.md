@@ -32,7 +32,7 @@
         <th  style="text-align:left">Sexe</th>
     </tr>
     <tr>
-        <th  style="text-align:left">Age</th>
+        <th  style="text-align:left">age</th>
         <th  style="text-align:left">Âge en années</th>
     </tr>
     <tr>
