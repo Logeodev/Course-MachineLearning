@@ -67,7 +67,7 @@ def initDictionnaireClassificateurs(arbres = 128):
             'Neural_Net'
         ]
 
-    arbres = 128
+    # arbres = 128
     classificateurs = [
                 RandomForestClassifier(
                     max_depth=6,
