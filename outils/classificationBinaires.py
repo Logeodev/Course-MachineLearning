@@ -102,7 +102,7 @@ def initDictionnaireClassificateurs(arbres = 128):
                     n_jobs=-1
                 ),
                 SGDClassifier(
-                    loss='log', 
+                    loss='log_loss',
                     alpha=0.01, 
                     max_iter=200, 
                     fit_intercept=True
