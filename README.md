@@ -23,9 +23,10 @@
          </th>
     </tr>    
 </table>
-<a href="https://www.anaconda.com/download/success">Installation Anaconda</a>
-
-<div>Mise à jour des librairies de l’environnement de base</div>
+<br><br><br>
+<b></b><a href="https://www.anaconda.com/download/success">Installation Anaconda</a></b>
+<br><br><br>
+<div>Mise à jour des librairies de l’environnement <b>base</b></div>
 
 ```
 conda activate root
@@ -33,7 +34,9 @@ conda update --all
 python -m pip install --upgrade pip
 ```
 <div>Création de l’environnement <b>cours</b> </div>
+<br><br><br>
 <div><b>Windows</b> </div>
+<br><br><br>
 
 ```
 # conda remove -n cours --all -y
@@ -43,8 +46,9 @@ conda activate cours
 
 pip install sql psycopg cx_Oracle opencv-python-headless dtreeviz readfcs
 ```
-
+<br><br><br>
 <div><b>Linux</b> </div>
+<br><br><br>
 
 ```
 # conda remove -n cours --all -y
