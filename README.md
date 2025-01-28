@@ -1,5 +1,3 @@
-style='padding:15px;color:#030aa7;font-size:340%;text-align: center;font-style: italic;font-weight: bold;font-family: Georgia, serif'
-
 <table>
 <tr>                                                                                   
      <th>
@@ -12,7 +10,7 @@ style='padding:15px;color:#030aa7;font-size:340%;text-align: center;font-style: 
  </tr>    
 </table>
 
-<b><div style='padding:15px;background-color:#d8dcd6;color:#030aa7;font-size:120%;text-align: left'>Installation</div></b>
+<b><div>Installation</div></b>
 
 
 
@@ -27,15 +25,15 @@ style='padding:15px;color:#030aa7;font-size:340%;text-align: center;font-style: 
 </table>
 <a href="https://www.anaconda.com/download/success">Installation Anaconda</a>
 
-<div style='padding:15px;color:#030aa7;font-size:100%;text-align: left;font-family: Georgia, serif'>Mise à jour des librairies de l’environnement de base</div>
+<div>Mise à jour des librairies de l’environnement de base</div>
 
 ```
 conda activate root
 conda update --all
 python -m pip install --upgrade pip
 ```
-<div style='padding:15px;color:#030aa7;font-size:100%;text-align: left;font-family: Georgia, serif'>Création de l’environnement <b>cours</b> </div>
-<div style='padding:15px;color:#030aa7;font-size:100%;text-align: left;font-family: Georgia, serif'><b>Windows</b> </div>
+<div>Création de l’environnement <b>cours</b> </div>
+<div><b>Windows</b> </div>
 
 ```
 # conda remove -n cours --all -y
@@ -46,7 +44,7 @@ conda activate cours
 pip install sql psycopg cx_Oracle opencv-python-headless dtreeviz readfcs
 ```
 
-<div style='padding:15px;color:#030aa7;font-size:100%;text-align: left;font-family: Georgia, serif'><b>Linux</b> </div>
+<div><b>Linux</b> </div>
 
 ```
 # conda remove -n cours --all -y
