@@ -119,7 +119,7 @@ def initDictionnaireClassificateurs(arbres = 128):
                 ),
                 SVC(
                     kernel="linear" , 
-                    C=1, #0.025, 
+                    C=10, #0.025, 
                     probability=True),
                 NuSVC(
                     kernel="rbf",
