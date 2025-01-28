@@ -17,13 +17,13 @@
 
 <table>
     <tr>                                                                                   
-         <th><a href="https://www.anaconda.com/download">
+         <th><a href="https://www.anaconda.com/download/success">
                <img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/anaconda.png" width="512">
              </a>
          </th>
     </tr>    
 </table>
-<a href="https://www.anaconda.com/download">Installation Anaconda</a>
+<a href="https://www.anaconda.com/download/success">Installation Anaconda</a>
 
 <div style='padding:15px;color:#030aa7;font-size:100%;text-align: left;font-family: Georgia, serif'>Mise à jour des librairies de l’environnement de base</div>
 
