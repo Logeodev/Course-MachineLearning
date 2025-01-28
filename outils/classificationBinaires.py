@@ -102,7 +102,7 @@ def initDictionnaireClassificateurs(arbres = 128):
                     n_jobs=-1
                 ),
                 SGDClassifier(
-                    loss='log_loss',
+                    loss='log_loss', 
                     alpha=0.01, 
                     max_iter=200, 
                     fit_intercept=True
@@ -158,7 +158,7 @@ def executionEssaiComparaisonClassificateurs(
     # h = .02  # step size in the mesh
     lw = 1
 
-    plt.figure(figsize=(18,36))
+    plt.figure(figsize=(36,18))
 
     r_acc,r_aucROC = dict(),dict()
     fauxPositifs, vraisPositifs, probabilites = dict(),dict(),dict()
@@ -200,16 +200,16 @@ def executionEssaiComparaisonClassificateurs(
         print ("Area under the ROC curve : %0.4f" % r_aucROC[nom],end='\t--\t')
         print('Exécution  :'+('%.2fs' % (time.time() - t1)).lstrip('0'))
 
-        plt.subplot(2, 1, 1)
+        plt.subplot(1, 2, 1)
         plt.plot(fauxPositifs[nom], vraisPositifs[nom], color=couleurs[i], label=nom + '(AUC = %0.4f)' % r_aucROC[nom])
 
-        plt.subplot(2, 1, 2)
+        plt.subplot(1, 2, 2)
         plt.step(rec[nom], prec[nom], where='post', color=couleurs[i], label=f"{nom}(AP = {avgPrecRec[nom]:0.8f})")#alpha=0.8, 
         plt.fill_between(rec[nom], prec[nom], step='post', alpha=0.05)
 
 
 
-    plt.subplot(2, 1, 1)
+    plt.subplot(1, 2, 1)
     plt.plot([0, 1], [0, 1], 'k--')
     plt.xlim([-0.05, 1.05])
     plt.ylim([-0.05, 1.05])
@@ -218,7 +218,7 @@ def executionEssaiComparaisonClassificateurs(
     plt.title('La courbe ROC (Receiver Operating Caracteristic)',size=20)
     plt.legend(loc="lower right")    
 
-    plt.subplot(2, 1, 2)
+    plt.subplot(1, 2, 2)
     f_scores = np.linspace(0.2, 0.9, num=7)
     for f_score in f_scores:
         x = np.linspace(0.01, 1)
@@ -226,8 +226,6 @@ def executionEssaiComparaisonClassificateurs(
         l, = plt.plot(x[y >= 0], y[y >= 0], color='gray', alpha=0.2)
         plt.annotate('f1={0:0.1f}'.format(f_score), xy=(0.9, y[45] + 0.02))
 
-    # plt.subplot(2, 1, 2)                
-    # plt.plot([0, 1], [0.5, 0.5], 'k--')
     plt.plot([0, 1], [0, 1], 'k--', lw=lw)
     plt.xlim([-0.05, 1.05])
     plt.ylim([-0.05, 1.05])
