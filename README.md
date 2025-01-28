@@ -1,7 +1,7 @@
 <table>
 <tr>                                                                                   
      <th>
-         <div style='padding:15px;color:#030aa7;font-size:240%;text-align: center;font-style: italic;font-weight: bold;font-family: Georgia, serif'>Formation MachineLearning</div>
+         <div style='padding:15px;color:#030aa7;font-size:340%;text-align: center;font-style: italic;font-weight: bold;font-family: Georgia, serif'>Formation MachineLearning</div>
      </th>
      <th><img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/ml_logo.png" width="96"></th>
  </tr>
