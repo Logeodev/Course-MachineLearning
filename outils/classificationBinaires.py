@@ -151,8 +151,8 @@ def executionEssaiComparaisonClassificateurs(
                        X_test, 
                        y_test, 
                        couleurs,
-                       nom_essai,
-                       projet):
+                       nom_essai='default',
+                       projet=None):
     np.random.seed(123456)
     t0 = time.time()  
     # h = .02  # step size in the mesh
@@ -234,7 +234,8 @@ def executionEssaiComparaisonClassificateurs(
     plt.title('La courbe Précision-Rappel',size=20)
     plt.legend(loc="lower left")    
 
-    projet.sauvegarderImage(f"Les courbes ROC et Précision-Rappel--{nom_essai}")    
+    if projet is not None:
+        projet.sauvegarderImage(f"Les courbes ROC et Précision-Rappel--{nom_essai}")    
     plt.show()
 
     print('Exécution  :'+('%.2fs' % (time.time() - t0)).lstrip('0'))
