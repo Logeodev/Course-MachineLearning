@@ -121,3 +121,32 @@
      <th style="vertical-align: top"><img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/champignons_structure.jpeg" width="1024"></th>
  </tr>
 </table>
+
+
+```
+dictValeurs = {}
+dictValeurs['cible']                   ={'comestible':'e','toxique':'p'} 
+dictValeurs['cap_shape']               ={'bell':'b','conical':'c','convex':'x','flat':'f','knobbed':'k','sunken':'s'}
+dictValeurs['cap_surface']             ={'fibrous':'f','grooves':'g','scaly':'y','smooth':'s'}
+dictValeurs['cap_color']               ={'brown':'n','buff':'b','cinnamon':'c','gray':'g','green':'r','pink':'p','purple':'u','red':'e','white':'w','yellow':'y'}
+dictValeurs['bruises']                 ={'bruises':'t','no':'f'}
+dictValeurs['odor']                    ={'almond':'a','anise':'l','creosote':'c','fishy':'y','foul':'f','musty':'m','none':'n','pungent':'p','spicy':'s'}
+dictValeurs['gill_attachment']         ={'attached':'a','descending':'d','free':'f','notched':'n'}
+dictValeurs['gill_spacing']            ={'close':'c','crowded':'w','distant':'d'}
+dictValeurs['gill_size']               ={'broad':'b','narrow':'n'}
+dictValeurs['gill_color']              ={'black':'k','brown':'n','buff':'b','chocolate':'h','gray':'g','green':'r','orange':'o','pink':'p','purple':'u','red':'e','white':'w','yellow':'y'}
+dictValeurs['stalk_shape']             ={'enlarging':'e','tapering':'t'}
+dictValeurs['stalk_root']              ={'bulbous':'b','club':'c','cup':'u','equal':'e','rhizomorphs':'z','rooted':'r','missing':'?'}
+dictValeurs['stalk_surface_above_ring']={'fibrous':'f','scaly':'y','silky':'k','smooth':'s'}
+dictValeurs['stalk_surface_below_ring']={'fibrous':'f','scaly':'y','silky':'k','smooth':'s'}
+dictValeurs['stalk_color_above_ring']  ={'brown':'n','buff':'b','cinnamon':'c','gray':'g','orange':'o','pink':'p','red':'e','white':'w','yellow':'y'}
+dictValeurs['stalk_color_below_ring']  ={'brown':'n','buff':'b','cinnamon':'c','gray':'g','orange':'o','pink':'p','red':'e','white':'w','yellow':'y'}
+dictValeurs['veil_type']               ={'partial':'p','universal':'u'}
+dictValeurs['veil_color']              ={'brown':'n','orange':'o','white':'w','yellow':'y'}
+dictValeurs['ring_number']             ={'none':'n','one':'o','two':'t'}
+dictValeurs['ring_type']               ={'cobwebby':'c','evanescent':'e','flaring':'f','large':'l','none':'n','pendant':'p','sheathing':'s','zone':'z'}
+dictValeurs['spore_print_color']       ={'black':'k','brown':'n','buff':'b','chocolate':'h','green':'r','orange':'o','purple':'u','white':'w','yellow':'y'}
+dictValeurs['population']              ={'abundant':'a','clustered':'c','numerous':'n','scattered':'s','several':'v','solitary':'y'}
+dictValeurs['habitat']                 ={'grasses':'g','leaves':'l','meadows':'m','paths':'p','urban':'u','waste':'w','woods':'d'}
+```
+
