@@ -2,6 +2,7 @@ import pandas as pd, numpy as np, seaborn as sns, warnings, os, sys, time, copy 
 from datetime import datetime as dt
 from matplotlib import pyplot as plt
 
+os.environ['SCIPY_ARRAY_API']='1'
 from imblearn.over_sampling import SMOTE
 from lightgbm import LGBMClassifier
 from xgboost  import XGBClassifier
