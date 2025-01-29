@@ -7,9 +7,7 @@
  </tr>
 </table>
 
-<div style='text-align: center'>
 <img src="https://raw.githubusercontent.com/rbizoi/MachineLearning/refs/heads/master/images/alzheimer.png" width="512">
-</div>
  
 <table>
         <tr>                                                                                   
