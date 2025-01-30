@@ -283,7 +283,7 @@ def affichageEvolutionMetriques(resultats, metrique, palette):
                          # ci    = None, 
                          color = palette[i],
                          ax    = ax,);
-    ax.set_title(f"Evolution du {metrique} suivant les traitements",fontsize = 36);      
+    ax.set_title(f"Evolution du {metrique} suivant les traitements",fontsize = 36);
 
 def affichageROC(nom, classificateur, X_test, y_test):
     plt.figure(figsize=(36,36))
