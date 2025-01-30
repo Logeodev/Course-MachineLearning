@@ -237,3 +237,9 @@ def affichageDonnees3d(donnees, palette):
                        )
     fig.show()
 
+def createColumnsQualitatives(donnees,colonne):
+    valeurs = donnees[colonne].sort_values().unique()
+    for i in valeurs :
+        nom = colonne+'='+str(i)
+        donnees[nom] = donnees[colonne].apply(lambda x : 1 if x==i else 0)
+    donnees.drop(labels=colonne, axis=1, inplace=True)
