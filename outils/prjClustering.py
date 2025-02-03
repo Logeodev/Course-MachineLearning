@@ -7,7 +7,6 @@ import matplotlib.font_manager as fm
 import plotly.express as px
 
 from kneed import KneeLocator
-#from yellowbrick.cluster import KElbowVisualizer
 from sklearn.cluster import KMeans
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score, silhouette_samples, calinski_harabasz_score, davies_bouldin_score 
