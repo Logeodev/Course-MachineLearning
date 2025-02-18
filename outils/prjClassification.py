@@ -206,7 +206,7 @@ def executionAffichageExecutionMultiple( classificateur,
                                          palette=None, 
                                          projet=None):
     fig,(ax0, ax1, ax2, ax3) = plt.subplots(nrows=1,ncols=4,figsize=(72,16))
-    affichagePartageDonnees(donnees, palette, ax0, afficheTitre=False)
+    # affichagePartageDonnees(donnees, palette, ax0, afficheTitre=False)
     classificateur.fit(X_train, y_train)
     probabilites = classificateur.predict_proba(X_test)
     predictions  = classificateur.predict(X_test) # 50%
